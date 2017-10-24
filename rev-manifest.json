@@ -2,6 +2,9 @@
   "fonts/Pusher-Regular.eot": "fonts/Pusher-Regular-90af5b0e0f.eot",
   "fonts/Pusher-Regular.woff": "fonts/Pusher-Regular-84fdc59c52.woff",
   "fonts/Pusher-Regular.woff2": "fonts/Pusher-Regular-ff10a5254b.woff2",
+  "fonts/PusherFat-Regular.eot": "fonts/PusherFat-Regular-53a8406bf6.eot",
+  "fonts/PusherFat-Regular.woff": "fonts/PusherFat-Regular-43fe6268c3.woff",
+  "fonts/PusherFat-Regular.woff2": "fonts/PusherFat-Regular-111e1ad633.woff2",
   "fonts/ddchardware-compressed-webfont.woff": "fonts/ddchardware-compressed-webfont-1be130a9a5.woff",
   "fonts/ddchardware-compressed-webfont.woff2": "fonts/ddchardware-compressed-webfont-b5ea8cc9a1.woff2",
   "fonts/ddchardware-regular-webfont.woff": "fonts/ddchardware-regular-webfont-23dd80b095.woff",
@@ -16,7 +19,7 @@
   "images/illo-workout-squat.gif": "images/illo-workout-squat-26de93922a.gif",
   "images/logo-tent.svg": "images/logo-tent-985faad654.svg",
   "images/mezzotent-logo.png": "images/mezzotent-logo-711b127c9b.png",
-  "javascripts/app.js": "javascripts/app-6280cb9a04502c38140b.js",
-  "stylesheets/app.css": "stylesheets/app-b7a7ff087b.css",
+  "javascripts/app.js": "javascripts/app-e8c56d01bf6f21d4b789.js",
+  "stylesheets/app.css": "stylesheets/app-e15f6749d0.css",
   "stylesheets/vendor/bootstrap.min.css": "stylesheets/vendor/bootstrap-64f951649b.min.css"
 }
