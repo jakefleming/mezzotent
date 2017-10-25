@@ -5,6 +5,9 @@
   "fonts/PusherFat-Regular.eot": "fonts/PusherFat-Regular-53a8406bf6.eot",
   "fonts/PusherFat-Regular.woff": "fonts/PusherFat-Regular-43fe6268c3.woff",
   "fonts/PusherFat-Regular.woff2": "fonts/PusherFat-Regular-111e1ad633.woff2",
+  "fonts/PusherNorm-Regular.eot": "fonts/PusherNorm-Regular-508225485b.eot",
+  "fonts/PusherNorm-Regular.woff": "fonts/PusherNorm-Regular-14a0e938fa.woff",
+  "fonts/PusherNorm-Regular.woff2": "fonts/PusherNorm-Regular-b5d5932f92.woff2",
   "fonts/ddchardware-compressed-webfont.woff": "fonts/ddchardware-compressed-webfont-1be130a9a5.woff",
   "fonts/ddchardware-compressed-webfont.woff2": "fonts/ddchardware-compressed-webfont-b5ea8cc9a1.woff2",
   "fonts/ddchardware-regular-webfont.woff": "fonts/ddchardware-regular-webfont-23dd80b095.woff",
@@ -20,6 +23,6 @@
   "images/logo-tent.svg": "images/logo-tent-985faad654.svg",
   "images/mezzotent-logo.png": "images/mezzotent-logo-711b127c9b.png",
   "javascripts/app.js": "javascripts/app-33c33ee158e8d104ad31.js",
-  "stylesheets/app.css": "stylesheets/app-e15f6749d0.css",
+  "stylesheets/app.css": "stylesheets/app-dbc491bc25.css",
   "stylesheets/vendor/bootstrap.min.css": "stylesheets/vendor/bootstrap-64f951649b.min.css"
 }
