@@ -1,0 +1,23 @@
+body {
+  background: black !important;
+  color: white !important;
+  position: relative;
+  padding: 4rem 0;
+}
+
+.logo {
+  display: block;
+  width: 100%;
+  margin: 2rem 0;
+  text-align: center;
+}
+
+.logo img {
+  width:100%;
+  max-width: 512px;
+}
+
+a,
+a:active {
+  position: static;
+}
