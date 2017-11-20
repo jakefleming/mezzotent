@@ -1,8 +1,66 @@
+$spacer: 24px;
+* {
+  box-sizing: border-box;
+}
+
 body {
-  background: black !important;
+  //background: black !important;
   color: white !important;
   position: relative;
-  padding: 4rem 0;
+  padding: 0;
+  margin: 0;
+  //padding: 4rem 0;
+}
+
+.section {
+  padding: $spacer*4;
+}
+
+.hero {
+  padding: $spacer*4 0 $spacer*5 0;
+  background: url(../images/bg-hero-bubble.svg) no-repeat bottom center, url(../images/bg-mezzo-white.png) center center;
+  background-size: 100vw, 768px;
+}
+
+.container {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.badge {
+  max-width: 330px;
+  position: relative;
+  margin: 0 auto;
+  &__shape {
+    background: url(../images/badge-shape.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 0;
+  }
+  &__content {
+    position: relative;
+    z-index: 1;
+    img {
+      max-width: 100%;
+    }
+  }
+  &__byline {
+    color: black;
+    position: absolute;
+    text-align: center;
+    bottom: $spacer*3;
+    font-size: 16px;
+    width: 100%;
+    a {
+      color: black;
+      text-decoration: underline;
+    }
+  }
 }
 
 .logo {
@@ -20,4 +78,25 @@ body {
 a,
 a:active {
   position: static;
+}
+
+.project {
+  display: block;
+  text-align: center;
+  margin-bottom: $spacer*4;
+  &__heading {
+    font-size: 32px;
+    line-height: 48px;
+    margin-bottom: $spacer/2;
+  }
+  &__description {
+    color: black;
+    font-size: 16px;
+  }
+  &__image-container {
+    margin-bottom: $spacer;
+  }
+  &__image {
+    max-width: 100%;
+  }
 }

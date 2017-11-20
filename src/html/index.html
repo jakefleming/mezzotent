@@ -1,29 +1,37 @@
 {% extends 'layouts/application.html' %}
 
 {% block content %}
-  <a href="wbc.html" class="logo"><img src="images/mezzotent-logo.png" alt="Mezzotent"/></a>
-
-  <h4 class="text-center mb-5">Side projects by Zac &amp; Jake</h4>
-
-  <div class="project text-center mb-4">
-    <a href="https://designercize.com/">
-      <img src="http://www.fillmurray.com/800/200" alt="" class="responsive-img"><br>
-      Designercize [branding, illustration, code]
-    </a>
+<div class="hero" style="">
+  <div class="badge">
+    <div class="badge__content">
+      <img src="images/badge-logo.png">
+      <p class="badge__byline">Projects by <br><a href="zachalbert.com">Zac</a> & <a href="jakefleming.net">Jake</a></p>
+    </div>
+    <div class="badge__shape"></div>
   </div>
+</div>
+<div class="container">
+  <section class="section">
 
-  <div class="project text-center mb-4">
-    <a href="https://gettypejam.com/">
-      <img src="http://www.fillmurray.com/800/200" alt="" class="responsive-img"><br>
-      TypeJam [branding, illustration, code]
+    <a href="https://designercize.com/" class="project">
+      <div class="project__image-container"><img src="images/big-z-j-bw.gif" alt="" class="responsive-img project__image" width="260"><br></div>
+      <h2 class="project__heading">Designercize</h2>
+      <p class="project__description">design, branding, illustration, code</p>
     </a>
-  </div>
 
-  <div class="project text-center mb-4">
-    <a href="https://learncodethehardway.org/">
-      <img src="http://www.fillmurray.com/800/200" alt="" class="responsive-img"><br>
-      Learn Code the Hard Way [branding, illustration, code]
+    <a href="https://gettypejam.com/" class="project">
+      <div class="project__image-container"><img src="images/typejam.svg" alt="" class="responsive-img project__image" width="130"><br></div>
+      <h2 class="project__heading">Type Jam</h2>
+      <p class="project__description">branding, illustration, code, event organization</p>
     </a>
-  </div>
 
+    <a href="https://learncodethehardway.org/" class="project">
+      <div class="project__image-container"><img src="images/lcthw.png" alt="" class="responsive-img project__image" width="390"><br></div>
+      <h2 class="project__heading">Learn Code The Hard Way</h2>
+      <p class="project__description">design, branding, illustration, code</p>
+    </a>
+
+    
+  </section>
+</div>
 {% endblock %}

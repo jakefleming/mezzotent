@@ -26,6 +26,12 @@
         url('../fonts/8008-Regular.woff') format('woff');
 }
 
+@font-face {
+  font-family: 'Goiters';
+  src:  url('../fonts/Goiters-Regular.woff2') format('woff2'),
+        url('../fonts/Goiters-Regular.woff') format('woff');
+}
+
 body,
 html {
   font-family: '8008', sans-serif;
@@ -50,7 +56,8 @@ h3, .h3,
 h4, .h4,
 h5, .h5,
 h6, .h6 {
-  font-family: '8008','DDCHardware', sans-serif;
+  color: black;
+  font-family: 'Goiters','DDCHardware', sans-serif;
   font-weight: 700;
   font-style: normal;
   font-weight: normal;
@@ -58,6 +65,7 @@ h6, .h6 {
   margin: 0;
   padding: 0;
 }
+
 .button,
 .button__text {
   font-family: '8008', sans-serif;
