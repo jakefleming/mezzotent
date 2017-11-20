@@ -57,5 +57,7 @@
   "images/medium.gif": "images/medium-fb6cd969c2.gif",
   "images/mezzotent-logo.png": "images/mezzotent-logo-711b127c9b.png",
   "images/typejam.svg": "images/typejam-d6d1302a23.svg",
-  "javascripts/app.js": "javascripts/app-8da32739a8afb95a1c89.js"
+  "javascripts/app.js": "javascripts/app-8da32739a8afb95a1c89.js",
+  "stylesheets/app.css": "stylesheets/app-5163159e9f.css",
+  "stylesheets/vendor/bootstrap.min.css": "stylesheets/vendor/bootstrap-64f951649b.min.css"
 }
