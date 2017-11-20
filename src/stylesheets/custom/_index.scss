@@ -13,7 +13,7 @@ body {
 }
 
 .section {
-  padding: $spacer*4;
+  padding: $spacer*4 $spacer;
 }
 
 .hero {
@@ -88,6 +88,9 @@ a:active {
     font-size: 32px;
     line-height: 48px;
     margin-bottom: $spacer/2;
+    @media(min-width: 768px;){
+      
+    }
   }
   &__description {
     color: black;
